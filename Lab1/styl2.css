@@ -1,0 +1,137 @@
+body {
+    font-family: Candara;
+    text-align: justify;
+    background-image: url("bg3.png");
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-img {
+        display: none;
+    }
+
+    .mobile-text {
+        margin: 10px !important;
+        padding: 10px !important;
+        letter-spacing: 0px !important;
+    }
+
+    body {
+        text-align:left;
+        margin:0px;
+    }
+
+    section {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+h1 {
+    font-family: 'Segoe Script';
+    font-size: 50px;
+    text-align:left;
+}
+
+.even {
+    margin:auto;
+    background-color: rgba(0,0,0,0.8);
+    padding-left:5%;
+    padding-right:5%;
+}
+
+    .even img {
+        float: left;
+        width: 150px;
+    }
+    .even h2 {
+        padding-left: 200px;
+    }
+    .even h3 {
+        padding-left: 200px;
+    }
+
+.odd {
+    margin: auto;
+    background-color: rgba(0,0,0,0.8);
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+    .odd h2 {
+        padding-left: 200px;
+    }
+    .odd h3 {
+        padding-left: 200px;
+    }
+    .odd img {
+        float: left;
+        width: 150px;
+    }
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin:auto;
+}
+
+.tytul {
+    font-family: 'Segoe Print';
+    color:white;
+    font-size: 30px;
+}
+
+.opis {
+    font-family: 'Comic Sans MS';
+}
+
+ol {
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+li {
+    padding-top: 20px;
+    border: 2px dashed yellow;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer {
+    padding: 50px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+    .menu a {
+        color:black;
+        background-color: rgba(255,255,255,0.5);
+        text-align: center;
+        padding: 25px 25px;
+        text-decoration: none;
+        font-size: 22px;
+        display: inline-block;
+    }
+
+        .menu a:hover {
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+        }

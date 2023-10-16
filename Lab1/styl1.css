@@ -1,0 +1,140 @@
+body {
+    font-family:Candara;
+    text-align:justify;
+    background-image:url("bg2.jpg");
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-img {
+        display: none;
+    }
+
+    .mobile-text {
+        margin: 10px !important;
+        padding: 10px !important;
+        letter-spacing: 0px !important;
+    }
+
+    body {
+        text-align: left;
+        margin: 0px;
+    }
+
+    section {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+h1 {
+    color:rgb(160, 131, 0);
+    text-align:center;
+    font-family:'Trebuchet MS';
+    font-size:50px;
+    letter-spacing:5px;
+}
+
+.odd {
+    padding-right:10%;
+    padding-left:10%;
+    background-color: rgb(255, 229, 145);
+}
+
+    .odd h2 {
+        padding-right:40%;
+    }
+    .odd h3 {
+        padding-right:40%;
+    }
+    .odd img {
+        float:right;
+        width:200px;
+    }
+
+.even {
+    padding-right:10%;
+    padding-left:10%;
+}
+
+    .even h2 {
+        padding-left:40%;
+    }
+    .even h3 {
+        padding-left: 40%;
+    }
+    .even img {
+        float: left;
+        width: 200px;
+    }
+
+
+
+section {
+    padding-top:70px;
+    padding-bottom:70px;
+
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.tytul {
+    font-family:Corbel;
+    font-size:30px;
+    letter-spacing:1px;
+}
+
+.opis {
+    font-family:Candara;
+    color:rgb(71, 71, 71);
+}
+
+ol {
+    font-size:20px;
+}
+
+li {
+    padding-top: 20px;
+    list-style-type: square;
+    font-size:24px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+p {
+    font-size:20px;
+}
+
+footer {
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+    background-color:gray;
+    color:white;
+    border:2px dotted black;
+}
+
+.lista {
+    margin-left:20%;
+}
+
+.menu {
+    list-style-type: none;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+    .menu a {
+        color: rgb(160, 131, 0);
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 22px;
+        display: inline-block;
+    }
+
+    .menu a:hover {
+        background-color:rgb(255, 229, 145);
+    }
