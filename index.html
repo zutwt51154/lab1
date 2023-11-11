@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+
+</head>
+<body>
+    <div id="map"></div>
+
+    <button id="getLocation">Moja lokalizacja</button>
+    <button id="saveButton">Pobierz mapę</button>
+
+    <div id="puzzle-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div class="row"><div id="0c" class="slot"></div><div id="1c" class="slot"></div><div id="2c" class="slot"></div><div id="3c" class="slot"></div></div>
+        <div class="row"><div id="4c" class="slot"></div><div id="5c" class="slot"></div><div id="6c" class="slot"></div><div id="7c" class="slot"></div></div>
+        <div class="row"><div id="8c" class="slot"></div><div id="9c" class="slot"></div><div id="10c" class="slot"></div><div id="11c" class="slot"></div></div>
+        <div class="row"><div id="12c" class="slot"></div><div id="13c" class="slot"></div><div id="14c" class="slot"></div><div id="15c" class="slot"></div></div>
+    </div>
+
+    <div id="elements"></div>
+
+    <!-- <canvas id="rasterMap"></canvas> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
